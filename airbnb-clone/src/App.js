@@ -1,9 +1,14 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi</h1>
+    <div className="Container">
+      <Navbar />
+      <Hero />
+      <Card />
     </div>
   );
 }
