@@ -2,7 +2,6 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import Kazie from "./images/image-12.png";
 
 function App() {
   return (
