@@ -20,10 +20,11 @@ function App() {
     );
   });
   return (
-    <div className="Container">
+    <div>
       <Navbar />
       <Hero />
-      {dataElements}
+
+      <section className="cards-list">{dataElements}</section>
     </div>
   );
 }
